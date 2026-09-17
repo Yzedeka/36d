@@ -1,0 +1,32 @@
+{
+  "name": "36d",
+  "version": "26.9.1",
+  "description": "Dimensional Coordinate Compression",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "pack": "npm pack --dry-run"
+  },
+  "keywords": [
+    "36d",
+    "compression",
+    "coordinate",
+    "encoding",
+    "base76",
+    "multidimensional",
+    "lossless"
+  ],
+  "license": "GPL-2.0-only",
+  "engines": {
+    "node": ">=18"
+  }
+}
